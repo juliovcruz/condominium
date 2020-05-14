@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Condominium</title>
+        <script type="text/javascript" src="src/models/users.js"></script>
+        <script type="text/javascript" src="src/models/tools.js"></script>
+        <script>sessionStorage.setItem('id', 0);</script>
+        <script></script>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>Condominium</h1>
+
+        <div class="login-card">
+            <form class="form">
+                <p id="plogin">LOGIN</p>
+                
+                <input type="hidden" id="field-id" value =""/>
+                <div class="input-div" id="input-user">
+                    <span>User:</span><br>
+                    <input type="text" id="field-name" placeholder="User"/>
+                </div> 
+                <div class="input-div" id="input-user">
+                    <span>Password:</span><br>
+                    <input type="password" id="field-pass" placeholder="Password" />
+                </div>
+                <div class="login-button">
+                    <button type="submit" onclick="loginUser()">LOGIN</button>
+                </div>
+                <div class="signup-button">
+                    <button type="button" onclick="signupUser()">SIGN UP</button>
+                </div>
+            </form>
+        </div>
+
+    </body>
+
+
+</html>

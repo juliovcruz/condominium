@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    background-color: #DFE5F3;
+}
+
+h1 {
+    padding: 25px;
+    text-align: center;
+}
+
+.login-card{
+    background-color: #fff;
+    width: 400px;
+    min-height: 265px;
+    margin: 100px auto;
+    border-radius: 16px;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 39px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 39px 0px rgba(0,0,0,0.75);
+}
+
+.login-card p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px;
+    letter-spacing: 0.8px;
+}
+.form{
+    padding: 15px;
+    font-size: 17px;
+}
+
+.form .input-div span{
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.form .input-div {
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    padding: 10px;
+}
+
+.form .input-div input{
+    outline: none;
+    width: 100%;
+    font-weight: bold;
+}
+
+.form button{
+    padding: 8px 16px;
+    background-color: chartreuse;
+    display: inline-block;
+    border-radius: 16px;
+    margin: 20px;
+    font-weight: bold;
+    width: 35%;
+    float: left;
+}
+input::placeholder{
+    font-size: 15px;
+    color: rgba(0,0,0,0.4)
+}
+
+.form button:hover{
+    cursor: pointer;
+}
+
+.form .signup-button button{
+    background-color: #FA9C2B;
+}

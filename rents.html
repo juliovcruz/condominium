@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Rents</title>
+        <script type="text/javascript" src="src/models/users.js"></script>
+        <script type="text/javascript" src="src/models/tools.js"></script>
+        <script type="text/javascript" src="src/models/rents.js"></script>
+        <link rel="stylesheet" href="rents.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    </head>
+    <header>
+        <div class="links">
+            <a href="/condominium/tools.html">Tools</a>
+            <a href="/condominium/rents.html">Rents</a>
+        </div>
+    </header>
+    <body>
+        <h1>Rents</h1>
+
+        <table class="tableRents" id="myTable"> 
+            <tr>
+                <th>Client</th>
+                <th>Provider</th>
+                <th>Tool</th>
+                <th>Actions</th>
+            </tr>
+        </table>
+        <script>printRents()</script>
+    </body>
+
+
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Tools</title>
+        <script type="text/javascript" src="src/models/users.js"></script>
+        <script type="text/javascript" src="src/models/tools.js"></script>
+        <script type="text/javascript" src="src/models/rents.js"></script>
+        <link rel="stylesheet" href="tools.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    </head>
+    <header>
+        <div class="links">
+            <a href="/condominium/tools.html">Tools</a>
+            <a href="/condominium/rents.html">Rents</a>
+        </div>
+    </header>
+    <body>
+        <h1>Tools</h1>
+
+        <div>
+            <form class="form">
+                <h3>Register Tool</h3>
+                <div class="input-div">
+                <span>Name:</span><br>
+                <input id="input-name" type="text" placeholder="Name"/>
+                </div>
+                <div class="input-div">
+                <span onclick="printTools()">Price:</span><br>
+                <input id="input-price" type="text" placeholder="Price"/>
+                </div>
+                <div class="submit-button">
+                    <button type="button" onclick="signupTools()">OK</button>
+                </div>
+            </form>
+        </div>
+
+        <table class="tableTools" id="myTable"> 
+            <tr>
+                <th>User</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Actions</th>
+            </tr>
+        </table>
+        <script>printTools()</script>
+    </body>
+
+
+</html>
